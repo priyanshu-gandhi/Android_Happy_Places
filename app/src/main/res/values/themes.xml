@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Happyplaces" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="Theme.Custom" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize primary, secondary, and background colors -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/pink</item>
+        <item name="colorOnPrimary">@color/light_white</item>
+        <item name="colorSecondary">@color/grey</item>
+
+    </style>
+
+    <style name="Theme.Custom_home" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorOnPrimary">@color/light_white</item>
+        <item name="colorSecondary">@color/pink</item>
+        <item name="colorPrimaryVariant">@color/pink</item>
+    </style>
+
+
+    <style name="roundedImage" parent="">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">50%</item>
+    </style>
+
+
+
+</resources>
